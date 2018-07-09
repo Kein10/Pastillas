@@ -1,7 +1,5 @@
-def iniciar():
-    print("Se ha iniciado el sistema de pastillas.")
-
-
+from gui import * 
 
 if __name__ == '__main__':
-    iniciar()
+    ventana = Gui()
+    ventana.start_gui()
